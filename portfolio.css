@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.container {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.header a {
+    width: max-content;
+    font-size: 32px;
+    font-weight: 700;
+    color: aliceblue;
+    margin-left: 50px;
+    /* border: 1px solid yellow; */
+}
+
+.navbar a {
+    color: aliceblue;
+    font-size: 19px;
+    margin-left: 50px;
+    /* border: 1px solid yellow; */
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid rgb(136, 217, 255);
+    color:rgb(136, 217, 255);
+}
+
+#Welcome {
+    background-image: url("images\ \(7\)-01.jpeg");
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+    /* border: 2px solid rgb(255, 0, 195); */
+} 
+
+#Welcome h1 {
+    font-size: 42px;
+    font-weight: 700;
+    padding: 100px 0 0 0;
+    font-weight: 700;
+
+    /* border: 1px solid rgb(0, 102, 255); */
+}
+#Welcome h1 span{
+    color: #009dff;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+#Welcome p {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px;
+    padding: 0 0 50px 0;
+    /* border: 2px solid rgb(0, 221, 255); */
+}
+
+#Welcome button {
+    padding: 12px 15px;
+    background: #21a1f1;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 0;
+}
+
+#Welcome button:hover {
+    background: #61dafb;
+    cursor: pointer;
+}
+#Welcome button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* About Me Section */
+#about {
+    background-color: rgb(255, 227, 179);
+    padding: 90px;
+    background-color: #282c34;
+    /* border: 2px solid rgb(60, 255, 0); */
+}
+.containerTwo h2{
+    color:#ffffff;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+    margin-left:22%;
+    font-size: 35px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 119, 255, 0.3);
+}
+
+.image {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid yellow; */
+   
+}
+
+.pic {
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    border: 5px solid rgb(0, 166, 255);
+    box-shadow: 5px 5px 20px 2px rgba(0, 119, 255, 0.3);
+      
+}
+
+.text {
+    width: 600px;
+    height: 300px;
+    font-size: 19px;
+    color: #fff;
+}
+#hii{
+    font-size: 30px;
+    color:#21a1f1;
+    outline: 1px solid white;
+    margin: 0 0 20px 0;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text p span{
+    color:rgb(163, 163, 163);
+    font-weight: 700;
+    font-size: 30px ;
+}
+#skills{
+    padding: 20px 0 0 0;
+}
+.text p strong{
+    color:rgb(163, 163, 163);
+}
+
+/* <!-- Portfolio Section --> */
+
+#portfolio {
+    background: #f9f9f9;
+    padding: 60px 60px 0 90px;
+    /* border: 2px solid rgb(255, 115, 0); */
+}
+.containerThree h2{
+    color:#000000;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+    font-size: 35px;
+    font-weight: bolder;
+    box-shadow: 5px 5px 10px 2px rgba(247, 0, 255, 0.3);
+
+}
+.portfolio-item {
+    padding: 30px 0 60px 0;
+    display: flex;
+    gap: 20px;
+    justify-content:space-evenly;
+    /* border: 2px solid rgb(0, 255, 255); */
+}
+
+.project {
+    background: #ffefef;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    /* border: 2px solid rgb(0, 13, 255); */
+}
+.project h3 {
+    margin: 10px 0;
+    /* border: 2px solid rgb(174, 0, 255); */
+}
+
+.project p {
+    margin-bottom: 15px; 
+    /* border: 2px solid rgb(4, 255, 0); */
+}
+.project-info {
+    padding: 15px;
+    /* border: 2px solid rgb(0, 157, 255); */
+}
+
+.project-info button {
+    padding: 12px 15px;
+    background:pink;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #e75480;
+}
+.project-info button:hover{
+    background: #e75480;
+    cursor: pointer;
+}
+.project-info button a{
+    text-decoration: none;
+    color: #fff;
+}
+.project img {
+    width: 60%;
+    height: 150px;
+    border-radius: 8px;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+/* <!-- Contact Section --> */
+
+#contact {
+    background: #fff;
+    /* border: 3px solid rgb(162, 255, 0); */
+}
+.containerFour h2{
+    color:#000000;
+    justify-content: center;
+    text-align: center;
+    margin: 70px;
+    font-size: 35px;
+    font-weight: bolder;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+
+}
+form {
+    display: grid;
+    gap: 20px;
+    max-width: 600px;
+    height:auto;
+    margin: auto;
+    /* border: 2px solid rgb(76, 0, 255); */
+}
+form label {
+    font-weight: 600;
+    /* border: 2px solid rgb(255, 0, 60); */
+}
+
+form input, form textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* border: 2px solid rgb(255, 242, 0); */
+}
+form button{
+    padding: 12px;
+    background: #61dafb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+form button:hover {
+    background: #21a1f1;
+}
+.contact-info {
+    padding: 30px;
+    text-align: center;
+    /* border: 2px solid rgb(255, 0, 140); */
+}
+.contact-info p{
+    padding: 10px;
+    /* border: 2px solid rgb(0, 255, 174); */
+}
+.contact-info a {
+    color: #009dff;
+
+    text-decoration: none;
+    font-weight: 600;
+    /* border: 2px solid rgb(78, 1, 1); */
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    color: #61dafb;
+
+}
+
+footer {
+    background: #282c34;
+    color: #fff;
+    text-align: center;
+    /* border: 2px solid rgb(159, 80, 0); */
+}   
+.containerFive button{
+    padding: 12px 15px;
+    background: #61dafb;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    /* border: 2px solid rgb(0, 255, 8); */
+}
+.containerFive p{
+    padding: 30px;
+    /* border: 2px solid rgb(138, 99, 255); */
+}
+.containerFive button:hover{
+    background: #21a1f1;
+    cursor: pointer;
+}
+.containerFive button a{
+    text-decoration: none;
+    color: #fff;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+/* Media Quaries */
+@media screen and (max-width: 768px){
+    .image{
+        display: inline-block;
+    }
+    .text{
+        width: 100%;
+    }
+    .portfolio-item{
+        display: inline-block;
+    }
+    .project{
+        margin: 20px 0 10px 0;
+    }
+} 
