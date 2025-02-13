@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: 'poppins', sans-serif;
     text-decoration: none;
     list-style: none;
@@ -9,20 +9,19 @@
     scrollbar-width: none;
 }
 
-.container {
+header{
     width: 100%;
     height: 90px;
     background-color: rgb(53, 53, 53);
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
     position: fixed;
 }
 
 .header a {
-    width: max-content;
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 800;
     color: aliceblue;
     margin-left: 50px;
     /* border: 1px solid yellow; */
@@ -41,9 +40,9 @@
 }
 
 #Welcome {
-    background-image: url("images\ \(7\)-01.jpeg");
-    background-position: center;
+    background-image: url("https://png.pngtree.com/background/20210717/original/pngtree-creal-modern-simple-portfolio-picture-image_1447379.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     padding: 100px;
     text-align: center;
     /* border: 2px solid rgb(255, 0, 195); */
@@ -51,9 +50,8 @@
 
 #Welcome h1 {
     font-size: 42px;
-    font-weight: 700;
     padding: 100px 0 0 0;
-    font-weight: 700;
+
 
     /* border: 1px solid rgb(0, 102, 255); */
 }
@@ -77,40 +75,38 @@
     border-radius: 50px;
     font-size: 18px;
     font-weight: 600;
-    text-decoration: none;
     border: 0;
 }
 
+#Welcome button a{
+    color: #ffffff;
+}
 #Welcome button:hover {
     background: #61dafb;
     cursor: pointer;
 }
-#Welcome button a{
-    text-decoration: none;
-    color: #ffffff;
-}
 
-/* About Me Section */
+/******************** About Me Section********************** */
 #about {
-    background-color: rgb(255, 227, 179);
-    padding: 90px;
+    padding: 100px;
     background-color: #282c34;
     /* border: 2px solid rgb(60, 255, 0); */
 }
+
 .containerTwo h2{
+    width: 100%;
     color:#ffffff;
-    justify-content: center;
     text-align: center;
     margin: 50px;
-    margin-left:22%;
     font-size: 35px;
     box-shadow: 5px 5px 10px 2px rgba(0, 119, 255, 0.3);
+    /* border: 2px solid red; */
 }
 
 .image {
     display: flex;
     gap: 30px;
-    justify-content: center;
+    padding-left:50px;
     text-align: center;
     /* border: 2px solid yellow; */
    
@@ -118,10 +114,9 @@
 
 .pic {
     border-radius: 100%;
-    width: 250px;
     height: 250px;
-    border: 5px solid rgb(0, 166, 255);
-    box-shadow: 5px 5px 20px 2px rgba(0, 119, 255, 0.3);
+    border: 4px solid rgb(0, 166, 255);
+    box-shadow: 5px 5px 20px 2px rgba(45, 143, 255, 0.728);
       
 }
 
@@ -130,13 +125,11 @@
     height: 300px;
     font-size: 19px;
     color: #fff;
+    /* border: 2px solid yellow; */
 }
 #hii{
-    font-size: 30px;
+    font-size: 30px; 
     color:#21a1f1;
-    outline: 1px solid white;
-    margin: 0 0 20px 0;
-    font-weight: 900;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -147,6 +140,9 @@
 }
 #skills{
     padding: 20px 0 0 0;
+    /* border: 2px solid yellow; */
+
+    
 }
 .text p strong{
     color:rgb(163, 163, 163);
@@ -156,16 +152,14 @@
 
 #portfolio {
     background: #f9f9f9;
-    padding: 60px 60px 0 90px;
+    padding: 60px 60px 0 60px;
     /* border: 2px solid rgb(255, 115, 0); */
 }
 .containerThree h2{
     color:#000000;
-    justify-content: center;
     text-align: center;
     margin: 50px;
     font-size: 35px;
-    font-weight: bolder;
     box-shadow: 5px 5px 10px 2px rgba(247, 0, 255, 0.3);
 
 }
@@ -173,7 +167,6 @@
     padding: 30px 0 60px 0;
     display: flex;
     gap: 20px;
-    justify-content:space-evenly;
     /* border: 2px solid rgb(0, 255, 255); */
 }
 
@@ -185,6 +178,10 @@
     text-align: center;
     /* border: 2px solid rgb(0, 13, 255); */
 }
+.project-info {
+    padding: 15px;
+    /* border: 2px solid rgb(0, 157, 255); */
+}
 .project h3 {
     margin: 10px 0;
     /* border: 2px solid rgb(174, 0, 255); */
@@ -193,10 +190,6 @@
 .project p {
     margin-bottom: 15px; 
     /* border: 2px solid rgb(4, 255, 0); */
-}
-.project-info {
-    padding: 15px;
-    /* border: 2px solid rgb(0, 157, 255); */
 }
 
 .project-info button {
@@ -212,7 +205,6 @@
     cursor: pointer;
 }
 .project-info button a{
-    text-decoration: none;
     color: #fff;
 }
 .project img {
@@ -224,17 +216,10 @@
 
 /* <!-- Contact Section --> */
 
-#contact {
-    background: #fff;
-    /* border: 3px solid rgb(162, 255, 0); */
-}
 .containerFour h2{
-    color:#000000;
-    justify-content: center;
     text-align: center;
     margin: 70px;
     font-size: 35px;
-    font-weight: bolder;
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
 
 }
@@ -242,7 +227,6 @@ form {
     display: grid;
     gap: 20px;
     max-width: 600px;
-    height:auto;
     margin: auto;
     /* border: 2px solid rgb(76, 0, 255); */
 }
@@ -281,7 +265,6 @@ form button:hover {
 }
 .contact-info a {
     color: #009dff;
-
     text-decoration: none;
     font-weight: 600;
     /* border: 2px solid rgb(78, 1, 1); */
@@ -316,7 +299,6 @@ footer {
     cursor: pointer;
 }
 .containerFive button a{
-    text-decoration: none;
     color: #fff;
     /* border: 2px solid rgb(255, 0, 0); */
 }
